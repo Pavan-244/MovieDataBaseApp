@@ -6,7 +6,7 @@ const Pagination = ({page, onPrev, onNext, disablePrev, disableNext}) => (
     <button className="pagination-btn" disabled={disablePrev} onClick={onPrev}>
       Prev
     </button>
-    <span className="pagination-page">Page {page}</span>
+    <p className="pagination-page">{page}</p>
     <button className="pagination-btn" disabled={disableNext} onClick={onNext}>
       Next
     </button>
